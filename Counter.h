@@ -25,6 +25,10 @@ public:
 class CountDn : public Counter      // derived class ... borrowing everything from counter.
 {
 public:
+    CountDn();
+
+    CountDn(unsigned int count);
+
     Counter operator --();
 };
 

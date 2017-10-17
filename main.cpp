@@ -8,6 +8,7 @@ int main()
     Counter c1; //shortcut is alt + enter to include it after you type it.
     Counter c2(99);
     CountDn c3;
+    CountDn c4(50);
     cout<<"C1 count is: "<<c1.getCount()<<endl;
     ++c2;
     cout<<"C2 Count is: "<<c2.getCount()<<endl;
